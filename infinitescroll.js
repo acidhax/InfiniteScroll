@@ -20,7 +20,8 @@
             entered = false;
         }
         return true;
-    }
+    };
+    
     scope.scrollNotifier = function (callback) {
         _callback = callback;
         $(window).scroll(scrollbarCallback);
